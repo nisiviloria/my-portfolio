@@ -1,7 +1,6 @@
 {
+  "name": "portfolio",
   "version": "1.0.0",
-  "source": "./index.html",
-  "homepage": "https://nisiviloria.github.io/portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
