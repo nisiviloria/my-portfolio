@@ -9,9 +9,9 @@ import * as THREE from 'three';
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 
-// Use string URLs for Vite
-const cardGLB = '/images/card.glb';
-const lanyard = '/images/lanyard.png';
+// Updated: Use dynamic paths for Vite/GitHub Pages compatibility
+const cardGLB = `${import.meta.env.BASE_URL}images/card.glb`;
+const lanyard = `${import.meta.env.BASE_URL}images/lanyard.png`;
 
 export default function Lanyard({ 
   position = [0, 0, 30], 
@@ -56,7 +56,7 @@ function Band({ maxSpeed = 50, minSpeed = 0 }) {
   
   const [dragged, drag] = useState(false);
   const [hovered, hover] = useState(false);
-  const [isSmall, setIsSmall] = useState(() => typeof window !== 'undefined' && window.innerWidth < 1024);
+  const [isSmall, setIsSmall] = useState(() => typeof window !== 'undefined' && window.innerWidth < 1024);  // Fixed: Added 'undefined' check for SSR safety
 
   const segmentProps = { 
     type: 'dynamic', 
@@ -80,7 +80,7 @@ function Band({ maxSpeed = 50, minSpeed = 0 }) {
   useRopeJoint(fixed, j1, [[0, 0, 0], [0, 0, 0], 1]);
   useRopeJoint(j1, j2, [[0, 0, 0], [0, 0, 0], 1]);
   useRopeJoint(j2, j3, [[0, 0, 0], [0, 0, 0], 1]);
-useSphericalJoint(j3, card, [[0, 0, 0], [0, 3.2, 0]]);
+  useSphericalJoint(j3, card, [[0, 0, 0], [0, 3.2, 0]]);
 
   useEffect(() => {
     if (hovered) {

@@ -130,7 +130,7 @@ export const AboutMe = () => {
          <img
           className="block lg:hidden w-full mt-6 opacity-40"
           alt="divider"
-          src="/images/Line Vertical.png"
+          src={`${import.meta.env.BASE_URL}images/Line Vertical.png`}
           style={{ filter: 'grayscale(100%)' }}
         />
 
