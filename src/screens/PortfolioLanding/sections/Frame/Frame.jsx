@@ -7,20 +7,20 @@ export const Frame = ({ onNavigate }) => {
   const buttons = [
     {
       label: "PROJECTS",
-      icon: "./images/projects.png",
-      iconActive: "./images/projectsdark.png",
+      icon: "/images/projects.png",
+      iconActive: "/images/projectsdark.png",
       section: "projects",
     },
     {
       label: "CERTIFICATES",
       icon: "https://c.animaapp.com/ps12dqg1/img/vector-3.svg",
-      iconActive: "./images/certidark.png",
+      iconActive: "/images/certidark.png",
       section: "certificates",
     },
     {
       label: "MY SKILLS",
       icon: "https://c.animaapp.com/ps12dqg1/img/group-1@2x.png",
-      iconActive: "./images/techdark.png",
+      iconActive: "/images/techdark.png",
       section: "myskills",
     },
   ];
