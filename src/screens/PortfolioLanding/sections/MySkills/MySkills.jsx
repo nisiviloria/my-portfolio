@@ -468,7 +468,7 @@ const personalTraits = [
   </div>
 
   {/* CSS for shimmer animation */}
-  <style jsx>{`
+  <style>{`
     .shiny-text-purple {
       color: #7d52fd;
       background: linear-gradient(

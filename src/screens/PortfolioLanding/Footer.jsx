@@ -75,7 +75,7 @@ const items = [
 
       </div>
 
-      <style jsx>{`
+      <style>{`
         .dock-outer {
           overflow: visible;
         }

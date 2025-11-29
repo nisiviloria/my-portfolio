@@ -115,7 +115,7 @@ export const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* LOGO */}
           <img
-            src="/public/images/logo.png"
+            src="images/logo.png"
             alt="Nisi Dev Logo"
             className="w-[160px]"
           />
@@ -151,7 +151,7 @@ export const Navbar = () => {
       {/* Mobile Logo - Visible only at top */}
       <div className={`md:hidden fixed top-2 left-0 right-0 z-50 transition-all duration-300 ease-in-out flex pl-7 ${!isNavVisible ? "opacity-100" : "opacity-0"}`}>
         <img
-          src="/public/images/logo.png"
+          src="images/logo.png"
           alt="Nisi Dev Logo"
           className="w-[150px]"
         />
