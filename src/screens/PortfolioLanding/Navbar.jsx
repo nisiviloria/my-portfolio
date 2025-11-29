@@ -115,7 +115,7 @@ export const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* LOGO */}
           <img
-            src="images/logo.png"
+            src="/images/logo.png"
             alt="Nisi Dev Logo"
             className="w-[160px]"
           />
