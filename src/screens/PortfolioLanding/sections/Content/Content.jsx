@@ -4,7 +4,7 @@ import TextType from "./TextType.jsx";
 
 // Import static assets from public folder or src/assets
 // If you put images in public/images, you can reference them with '/images/...'
-const downloadCV = "/images/Download_CV.png";
+const downloadCV = "/images/Download_CV.png"; 
 const downloadIcon = "/images/DownloadIcon.png";
 const profileImage = "https://c.animaapp.com/ps12dqg1/img/image@2x.png";
 const arrowRight = "https://c.animaapp.com/ps12dqg1/img/formkit-arrowright.svg";

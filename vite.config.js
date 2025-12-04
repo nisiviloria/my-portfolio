@@ -5,8 +5,8 @@ export default defineConfig({
   plugins: [react()], 
   base: process.env.NODE_ENV === 'production' ? '/my-portfolio/' : '/',
   assetsInclude: ['**/*.glb', '**/*.gltf'],
-   build: {
-    assetsInlineLimit: 0, 
-    publicDir: 'public',
+  publicDir: 'public',  
+  build: {
+    assetsInlineLimit: 0,
   }
 })
