@@ -71,7 +71,7 @@ export const Frame = ({ onNavigate }) => {
             <button
               key={btn.label}
               onClick={() => handleButtonClick(btn)}
-              className={`inline-flex items-center justify-center px-[20px] py-3.5 relative rounded-[50px] transition-all duration-300 outline-none focus:outline-none border-none ${
+              className={`inline-flex items-center justify-center px-[3px] py-3.5 relative rounded-[50px] transition-all duration-300 outline-none focus:outline-none border-none ${
                 activeButton === btn.label
                   ? "bg-white shadow-lg"
                   : "bg-transparent hover:bg-white/5"

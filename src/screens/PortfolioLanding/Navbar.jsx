@@ -6,37 +6,42 @@ export const Navbar = () => {
   const [isNavVisible, setIsNavVisible] = useState(false);
 
   // Scroll to section function
-  const scrollToSection = (section) => {
-    setActiveSection(section);
-    setIsScrolling(true);
-    
-    setTimeout(() => {
-      setIsScrolling(false);
-    }, 1000);
-    
-    switch(section) {
-      case "HOME":
-        window.scrollTo({ top: 0, behavior: "smooth" });
-        break;
-      case "ABOUT":
-        window.scrollTo({ top: 840, behavior: "smooth" });
-        break;
-      case "PROJECTS":
-        window.scrollTo({ top: 1550, behavior: "smooth" });
-        break;
-      case "CONTACT":
-        const contactElement = document.getElementById("contact");
-        if (contactElement) {
-          const rect = contactElement.getBoundingClientRect();
-          const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-          const elementTop = rect.top + scrollTop;
-          window.scrollTo({ top: elementTop, behavior: "smooth" });
-        }
-        break;
-      default:
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-  };
+const scrollToSection = (section) => {
+  const isMobile = window.innerWidth < 768;
+
+  setActiveSection(section);
+  setIsScrolling(true);
+
+  setTimeout(() => {
+    setIsScrolling(false);
+  }, 1000);
+
+  switch(section) {
+    case "HOME":
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      break;
+    case "ABOUT":
+      window.scrollTo({ top: 840, behavior: "smooth" });
+      break;
+    case "PROJECTS":
+      window.scrollTo({ top: isMobile ? 2100 : 1450, behavior: "smooth" });
+      break;
+    case "CONTACT":
+      const contactElement = document.getElementById("contact");
+      if (contactElement) {
+        const rect = contactElement.getBoundingClientRect();
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        window.scrollTo({
+          top: rect.top + scrollTop,
+          behavior: "smooth"
+        });
+      }
+      break;
+    default:
+      window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+};
+
 
   // Update active section and navbar visibility based on scroll and wheel
   useEffect(() => {

@@ -5,7 +5,7 @@ export const AboutMe = () => {
   return (
     <div className="w-full px-4 lg:px-0 lg:absolute lg:top-[844px] lg:left-[75px] lg:w-[1158px] py-8 lg:py-0">
       {/* Purple Border Box - Adjusted for mobile */}
-      <div className="w-full h-[1090px] lg:w-[1130px] lg:h-[560px] bg-[#151022] rounded-[20px] border-[5px] border-solid border-violet-500/40 shadow-[0_0_15px_rgba(168,85,247,0.4)] lg:absolute lg:top-0 p-6 lg:p-0">
+      <div className="w-full h-[1230px] lg:w-[1130px] lg:h-[560px] bg-[#151022] rounded-[20px] border-[5px] border-solid border-violet-500/40 shadow-[0_0_15px_rgba(168,85,247,0.4)] lg:absolute lg:top-0 p-6 lg:p-0">
         
         {/* Desktop Layout - Hidden on Mobile */}
         <div className="hidden lg:block">
