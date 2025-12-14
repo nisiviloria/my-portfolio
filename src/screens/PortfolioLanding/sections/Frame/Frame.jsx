@@ -13,13 +13,13 @@ export const Frame = ({ onNavigate }) => {
 },
 {
   label: "CERTIFICATES",
-  icon: `${import.meta.env.BASE_URL}images/certificates.svg`, 
+  icon: "https://c.animaapp.com/ps12dqg1/img/vector-3.svg",
   iconActive: `${import.meta.env.BASE_URL}images/certidark.png`,
   section: "certificates",
 },
 {
   label: "MY SKILLS",
-  icon: `${import.meta.env.BASE_URL}images/myskills.png`, 
+  icon:  "https://c.animaapp.com/ps12dqg1/img/group-1@2x.png", 
   iconActive: `${import.meta.env.BASE_URL}images/techdark.png`,
   section: "myskills",
   },
