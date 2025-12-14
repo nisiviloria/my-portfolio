@@ -3,8 +3,8 @@ import { CarouselText } from "./CarouselText.jsx";
 import TextType from "./TextType.jsx";
 
 
-const downloadCV = "/images/Download_CV.png"; 
-const downloadIcon = "/images/DownloadIcon.png";
+const downloadCV = `${import.meta.env.BASE_URL}images/Download_CV.png`; 
+const downloadIcon = `${import.meta.env.BASE_URL}images/DownloadIcon.png`;
 const profileImage = "https://c.animaapp.com/ps12dqg1/img/image@2x.png";
 const arrowRight = "https://c.animaapp.com/ps12dqg1/img/formkit-arrowright.svg";
 const linkedinIcon = "https://c.animaapp.com/ps12dqg1/img/frame-29.svg";
