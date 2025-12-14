@@ -13,7 +13,7 @@ export const Frame = ({ onNavigate }) => {
 },
 {
   label: "CERTIFICATES",
-  icon: `${import.meta.env.BASE_URL}images/certilight.svg`, 
+  icon: `${import.meta.env.BASE_URL}images/certilight.png`, 
   iconActive: `${import.meta.env.BASE_URL}images/certidark.png`,
   section: "certificates",
 },
