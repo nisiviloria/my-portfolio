@@ -7,8 +7,8 @@ export const Frame = ({ onNavigate }) => {
   const buttons = [
     {
       label: "PROJECTS",
-      icon: "/images/projects.png",
-      iconActive: `${import.meta.env.BASE_URL}projectsdark.png`,
+      icon: `${import.meta.env.BASE_URL}images/projects.png`,
+      iconActive: `${import.meta.env.BASE_URL}images/projectsdark.png`,
       section: "projects",
     },
     {
