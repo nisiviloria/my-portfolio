@@ -56,10 +56,10 @@ export const Content = () => {
           </p>
           <TextType
             text={[
-              "a Front-end Developer",
-              "a Web Designer",
-              "an UI/UX Designer",
-              "a Marketing or Social Media Manager"
+              " a Front-end Developer",
+              " a Web Designer",
+              " an UI/UX Designer",
+              " a Marketing or Social Media Manager"
             ]}
             as="div"
             className="[font-family:'Raleway',Helvetica] font-semibold text-white text-base sm:text-lg lg:text-xl tracking-[0] leading-5 whitespace-nowrap"
