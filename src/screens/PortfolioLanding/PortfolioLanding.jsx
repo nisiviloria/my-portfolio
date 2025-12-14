@@ -54,12 +54,12 @@ export const PortfolioLanding = () => {
   return (
     <div
       id="home"
-      className="bg-[#151022] w-full min-w-0 lg:min-w-[1280px] relative"
+      className="bg-[#151022] w-full max-w-full lg:min-w-[1280px] relative overflow-x-hidden"
       style={{ height: isMobile ? 'auto' : `${parseInt(getFooterTopPosition()) + 150}px` }}
     >
 
       <img
-        className="absolute top-0 left-0 w-full lg:w-[1280px] h-[400px] sm:h-[450px] lg:h-[516px] object-cover"
+        className="absolute top-0 left-0 w-full max-w-full h-[400px] sm:h-[450px] lg:h-[516px] lg:w-[1280px] object-cover"
         alt="Bg blur"
         src="https://c.animaapp.com/ps12dqg1/img/bg-blur.png"
       />

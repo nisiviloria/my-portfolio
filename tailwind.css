@@ -199,29 +199,7 @@
   animation: scroll 20s linear infinite; 
 }
 
-html {
-  overflow-x: hidden;
-  width: 100%;
-}
-
 body {
   font-family: 'Raleway', sans-serif;
-  overflow-x: hidden;
-  width: 100%;
-  position: relative;
-}
-
-#root {
-  overflow-x: hidden;
-  width: 100%;
-  max-width: 100vw;
-}
-
-* {
-  max-width: 100%;
-}
-
-[class*="absolute"],
-[class*="fixed"] {
-  max-width: 100vw;
+  overflow-x: hidden; 
 }
