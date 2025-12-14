@@ -2,34 +2,34 @@ import React from "react";
 
 export const Certificates = () => {
   const certificatesData = [
-    {
-      id: 1,
-      title: "Computer Systems Servicing",
-      issuer: "TESDA",
-      date: "February 2024",
-      description:
-        "Successfully completed the required competency units, demonstrating skills in workplace communication, technical operations, and electronics, and passed the National Certificate assessment.",
-      link: "/images/NCII-CSS.pdf",
-    },
-    {
-      id: 2,
-      title: "Visual Graphic Design",
-      issuer: "TESDA",
-      date: "April 2025",
-      description:
-        "Completed the required competency units, demonstrating skills in workplace communication, problem-solving, and visual design, and passed the National Certificate assessment.",
-      link: "/images/NCIII-VGD.pdf",
-    },
-    {
-      id: 3,
-      title: "Programming (JAVA) ",
-      issuer: "freeCodeCamp",
-      date: "September 2023",
-      description:
-        "Completed training in Java programming NC III, demonstrating skills in object-oriented design, problem-solving, and software development.",
-      link: "/images/PROG-JAVA.pdf",
-    },
-  ];
+   {
+    id: 1,
+    title: "Computer Systems Servicing",
+    issuer: "TESDA",
+    date: "February 2024",
+    description:
+      "Successfully completed the required competency units, demonstrating skills in workplace communication, technical operations, and electronics, and passed the National Certificate assessment.",
+    link: `${import.meta.env.BASE_URL}images/NCII-CSS.pdf`,
+  },
+  {
+    id: 2,
+    title: "Visual Graphic Design",
+    issuer: "TESDA",
+    date: "April 2025",
+    description:
+      "Completed the required competency units, demonstrating skills in workplace communication, problem-solving, and visual design, and passed the National Certificate assessment.",
+    link: `${import.meta.env.BASE_URL}images/NCIII-VGD.pdf`,
+  },
+  {
+    id: 3,
+    title: "Programming (JAVA) ",
+    issuer: "freeCodeCamp",
+    date: "September 2023",
+    description:
+      "Completed training in Java programming NC III, demonstrating skills in object-oriented design, problem-solving, and software development.",
+    link: `${import.meta.env.BASE_URL}images/PROG-JAVA.pdf`,
+  },
+];
 
   return (
     <>

@@ -5,24 +5,24 @@ export const Frame = ({ onNavigate }) => {
   const [activeButton, setActiveButton] = useState("PROJECTS");
 
   const buttons = [
-    {
-      label: "PROJECTS",
-      icon: `${import.meta.env.BASE_URL}images/projects.png`,
-      iconActive: `${import.meta.env.BASE_URL}images/projectsdark.png`,
-      section: "projects",
-    },
-    {
-      label: "CERTIFICATES",
-      icon: "https://c.animaapp.com/ps12dqg1/img/vector-3.svg",
-      iconActive: "/images/certidark.png",
-      section: "certificates",
-    },
-    {
-      label: "MY SKILLS",
-      icon: "https://c.animaapp.com/ps12dqg1/img/group-1@2x.png",
-      iconActive: "/images/techdark.png",
-      section: "myskills",
-    },
+   {
+  label: "PROJECTS",
+  icon: `${import.meta.env.BASE_URL}images/projects.png`,
+  iconActive: `${import.meta.env.BASE_URL}images/projectsdark.png`,
+  section: "projects",
+},
+{
+  label: "CERTIFICATES",
+  icon: `${import.meta.env.BASE_URL}images/certificates.svg`, 
+  iconActive: `${import.meta.env.BASE_URL}images/certidark.png`,
+  section: "certificates",
+},
+{
+  label: "MY SKILLS",
+  icon: `${import.meta.env.BASE_URL}images/myskills.png`, 
+  iconActive: `${import.meta.env.BASE_URL}images/techdark.png`,
+  section: "myskills",
+  },
   ];
 
   const handleButtonClick = (btn) => {

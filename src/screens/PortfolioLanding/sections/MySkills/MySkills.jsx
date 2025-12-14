@@ -84,13 +84,13 @@ export const MySkills = () => {
       id: 14,
       name: "CapCut",
       category: "Video Editing",
-      icon: "/images/capcut.png",
+      icon: `${import.meta.env.BASE_URL}images/capcut.png`,
     },
     {
       id: 15,
       name: "DaisyUI",
       category: "UI Library",
-      icon: "/images/daisyui.png",
+      icon: `${import.meta.env.BASE_URL}images/daisyui.png`,
     },
   ];
 const personalTraits = [
@@ -98,24 +98,24 @@ const personalTraits = [
       id: 20,
       name: "Creativity",
       description: "Generates fresh, user-centered design ideas",
-      icon: "/images/creativity1.png", 
+      icon: `${import.meta.env.BASE_URL}images/creativity1.png`, 
     },
     {
       id: 21,
       name: "Collaboration",
       description: "Works effectively in team projects and feedback cycles",
-      icon: "/images/Collaboration.png",
+      icon: `${import.meta.env.BASE_URL}images/Collaboration.png`,
     },
     {
       id: 22,
       name: "Communication",
       description: "Clearly conveys design concepts and explains site functionality",
-      icon: "/images/Communication.png", 
+      icon: `${import.meta.env.BASE_URL}images/Communication.png`, 
     },
     {id: 23,
       name: "Time Management",
       description: "Efficiently manages tasks to meet project deadlines",
-      icon: "/images/time.png", 
+      icon: `${import.meta.env.BASE_URL}images/time.png`, 
     },
   ];
 

@@ -138,7 +138,7 @@ export const Content = () => {
                 className="absolute w-[92px] sm:w-[102px] h-[92px] sm:h-[102px] animate-spin-slow"
               />
               <a
-                href="/images/resume-viloria.pdf"
+                href={`${import.meta.env.BASE_URL}images/resume-viloria.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative z-10 cursor-pointer"
@@ -172,7 +172,7 @@ export const Content = () => {
           className="absolute w-[112px] h-[112px] animate-spin-slow"
         />
         <a
-          href="/images/resume-viloria.pdf"
+          href={`${import.meta.env.BASE_URL}images/resume-viloria.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           className="relative z-10 cursor-pointer"
