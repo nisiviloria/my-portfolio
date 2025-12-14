@@ -8,7 +8,7 @@ export const Projects = () => {
     subtitle: "(Website)",
     description:
       "Project that showcases a pet adoption platform where people can browse and adopt animals, support the shelter through donations, and learn about its mission to provide loving homes for pets.",
-    image: "/images/Pawpalace.png",
+    image: `${import.meta.env.BASE_URL}images/Pawpalace.png`,
     technologies: ["HTML5", "CSS3", "Javascript"],
     link: "https://pawpalace-shelter.netlify.app/",
     githubLink: "https://github.com/nisiviloria/PawPalace-Shelter" 
@@ -19,7 +19,7 @@ export const Projects = () => {
     subtitle: "(Website)",
     description:
       "interactive quiz designed to test basic JavaScript knowledge. Users enter their name to begin and are welcomed before starting. The quiz includes 8 quick questions for a short and fun challenge.",
-    image: "/images/Quiztion.png",
+    image: `${import.meta.env.BASE_URL}images/Quiztion.png`,
     technologies: ["HTML", "CSS", "JavaScript", "JSON"],
     link: "https://nisiviloria.github.io/QuizTion-/",
     githubLink: "https://github.com/NisiViloria/QuizTion-" 
@@ -30,7 +30,7 @@ export const Projects = () => {
     subtitle: "(Website)",
     description:
       "Travel agency website that guides users to explore beautiful destinations, tourist spots, and hotel options. It includes links to separate pages for places to visit and a hotel page that connects directly through email for easy inquiries and bookings.",
-    image: "/images/Packnfly.png",
+    image: `${import.meta.env.BASE_URL}images/Packnfly.png`,
     technologies: ["HTML", "CSS", "Javascript"],
     link: "https://nisiviloria.github.io/PackN-Fly/",   
     githubLink: "https://github.com/NisiViloria/PackN-Fly"
