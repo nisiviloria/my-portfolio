@@ -8,7 +8,7 @@ export const Frame = ({ onNavigate }) => {
     {
       label: "PROJECTS",
       icon: "/images/projects.png",
-      iconActive: "/images/projectsdark.png",
+      iconActive: `${import.meta.env.BASE_URL}projectsdark.png`,
       section: "projects",
     },
     {
