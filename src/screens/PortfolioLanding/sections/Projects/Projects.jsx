@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export const Projects = () => {
+    const navigate = useNavigate();
+const handleSeeMoreProjects = () => {
+  navigate("/all-projects");
+  window.scrollTo(0, 0);
+};
+
  const projectsData = [
   {
     id: 1,
@@ -139,9 +146,12 @@ export const Projects = () => {
           ))}
         </div>
 
-        {/* See More Button */}
+     {/* See More Button */}
         <div className="flex justify-center mt-12">
-          <button className="group relative inline-flex items-center justify-center px-8 py-3.5 rounded-full border border-white/50 backdrop-blur-md backdrop-brightness-[100%] bg-transparent hover:bg-white transition-all duration-300">
+          <button 
+            onClick={handleSeeMoreProjects}
+            className="group relative inline-flex items-center justify-center px-8 py-3.5 rounded-full border border-white/50 backdrop-blur-md backdrop-brightness-[100%] bg-transparent hover:bg-white transition-all duration-300 cursor-pointer"
+          >
             <span className="font-raleway font-semibold text-white text-base tracking-[0] group-hover:text-[#151022] transition-colors duration-300">
               See More Projects
             </span>
@@ -264,9 +274,12 @@ export const Projects = () => {
           ))}
         </div>
 
-        {/* See More Button */}
+         {/* See More Button */}
         <div className="flex justify-center mt-8">
-          <button className="group relative inline-flex items-center justify-center px-6 py-2.5 rounded-full border border-white/50 backdrop-blur-md backdrop-brightness-[100%] bg-transparent hover:bg-white transition-all duration-300">
+          <button 
+            onClick={handleSeeMoreProjects}
+            className="group relative inline-flex items-center justify-center px-6 py-2.5 rounded-full border border-white/50 backdrop-blur-md backdrop-brightness-[100%] bg-transparent hover:bg-white transition-all duration-300 cursor-pointer"
+          >
             <span className="font-raleway font-semibold text-white text-sm tracking-[0] group-hover:text-[#151022] transition-colors duration-300">
               See More Projects
             </span>

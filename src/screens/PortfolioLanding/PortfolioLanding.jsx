@@ -28,7 +28,7 @@ export const PortfolioLanding = () => {
   const getContactTopPosition = () => {
     switch(activeSection) {
       case "projects":
-        return "2500px"; 
+        return "2400px"; 
       case "certificates":
         return "2100px"; 
       case "myskills":
@@ -41,7 +41,7 @@ export const PortfolioLanding = () => {
   const getFooterTopPosition = () => {
     switch(activeSection) {
       case "projects":
-        return "2950px"; 
+        return "2850px"; 
       case "certificates":
         return "2550px"; 
       case "myskills":
