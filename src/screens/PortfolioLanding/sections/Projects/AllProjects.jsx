@@ -45,10 +45,20 @@ const AllProjects = () => {
         technologies: ["Canva", "Adobe Photoshop"],
         link: "https://fotopiapb.my.canva.site/copy-of-fotopiapb-ph#page-2",   
       },
+      {
+        id: 5,
+        title: "Nisi Portfolio",
+        subtitle: "(Website)",
+        description: "A personal portfolio website that showcases my projects, skills, and creative work, including sections for About Me, Projects, Contact, and more—designed to present my experience and work in a clear and engaging way.",
+        image: `${import.meta.env.BASE_URL}images/portfolio1.png`,
+        technologies: ["Canva", "HTML", "CSS", "ReactJs", "Tailwindcss"],
+        link: "https://nisiviloria.github.io/my-portfolio/", 
+        githubLink: "https://github.com/nisiviloria/my-portfolio"  
+      },
     ],
     "UI/UX Design": [
       {
-        id: 5,
+        id: 6,
         title: "Viaje Asia",
         subtitle: "(UI/UX Design)",
         description: "A travel planning app UI/UX design that allows users to plan trips, discover destinations, and connect with fellow travelers in one seamless experience.",
@@ -58,7 +68,7 @@ const AllProjects = () => {
        figmaLink: "https://www.figma.com/design/5jSDe9jWsOqIJJxB6yTqm1/-MAIN--TEAM-4---HCI-FINAL-PROJ?node-id=13-38886&t=LocwWChKtdWfK6DW-1",
       },
       {
-        id: 6,
+        id: 7,
         title: "OTW App",
         subtitle: "(UI/UX Design)",
         description: "A commuter-focused navigation app UI/UX design created to improve route planning and travel efficiency for Filipino urban commuters.",
@@ -68,7 +78,7 @@ const AllProjects = () => {
         figmaLink: "https://www.figma.com/design/5jSDe9jWsOqIJJxB6yTqm1/-MAIN--TEAM-4---HCI-FINAL-PROJ?node-id=13-38886&t=LocwWChKtdWfK6DW-1",
       },
        {
-        id: 7,
+        id: 8,
         title: "NavionPH",
         subtitle: "(UI/UX Design)",
         description: "A business-focused UI design for a personalized wristband service with GPS tracking, emphasizing clear navigation and easy access to product information.",
@@ -76,7 +86,7 @@ const AllProjects = () => {
         technologies: ["Adobe Photoshop", "Canva"],
        },
       {
-        id: 8,
+        id: 9,
         title: "Just Pizza",
         subtitle: "(UI Design)",
         description: "A mobile food ordering app UI design that enables users to browse pizza menus, add items to their cart, place orders, and track deliveries smoothly.",
@@ -84,7 +94,7 @@ const AllProjects = () => {
         technologies: ["Adobe Photoshop", "Canva"],
       },
       {
-        id: 9,
+        id: 10,
         title: "Puro Cafe",
         subtitle: "(UI Design)",
         description: "A mobile coffee ordering app UI design that allows users to explore coffee selections, customize orders, and complete checkout effortlessly.",
@@ -92,7 +102,7 @@ const AllProjects = () => {
         technologies: ["Adobe Photoshop", "Canva"],
       },
        {
-        id: 10,
+        id: 11,
         title: "Bobamazing",
         subtitle: "(UI Design)",
         description: "A mobile milktea ordering app UI design featuring product browsing, cart management, checkout, and order tracking for a fun user experience.",
@@ -100,7 +110,7 @@ const AllProjects = () => {
         technologies: ["Adobe Photoshop", "Canva"],
       },
       {
-        id: 11,
+        id: 12,
         title: "Ammox",
         subtitle: "(UI Design)",
         description: "A gaming shop website UI design that showcases games, in-game weapons, gear, battle passes, and essential sections like store, news, and support.",
@@ -108,7 +118,7 @@ const AllProjects = () => {
         technologies: ["Adobe Photoshop"],
       },
        {
-        id: 12,
+        id: 13,
         title: "MySHEUportal",
         subtitle: "(UI Design)",
         description: "A school portal UI design that provides easy access to admissions, academics, research, campus life, scholarships, and student resources.",
@@ -118,7 +128,7 @@ const AllProjects = () => {
     ],
     "Logo": [
        {
-        id: 13,
+        id: 14,
         title: "School Logo",
         subtitle: "(Design)",
         description: "A clean and modern school logo design that represents professionalism, identity, and academic excellence.",
@@ -126,7 +136,7 @@ const AllProjects = () => {
         technologies: ["Photoshop"],
       },
       {
-        id: 14,
+        id: 15,
         title: "Donut Logo",
         subtitle: "(Design)",
         description: "A playful and modern donut logo design created for a food brand, focusing on simplicity and visual appeal.",
@@ -134,7 +144,7 @@ const AllProjects = () => {
         technologies: ["Photoshop"],
       },
       {
-        id: 15,
+        id: 16,
         title: "Coffee Logo",
         subtitle: "(Design)",
         description: "A minimalist coffee logo design that reflects warmth, quality, and a modern café identity.",
@@ -142,7 +152,7 @@ const AllProjects = () => {
         technologies: ["Photoshop"],
       },
       {
-        id: 16,
+        id: 17,
         title: "Milktea Logo",
         subtitle: "(Design)",
         description: "A fun and youthful milktea logo design that captures the brand’s energetic and trendy personality.",
@@ -152,7 +162,7 @@ const AllProjects = () => {
     ],
     "Social Media": [
       {
-        id: 17,
+        id: 18,
         title: "Fotopia Photobooth",
         subtitle: "(Graphics)",
         description: "Social media graphics and content designs created to promote Fotopia’s photobooth services and event experiences.",
@@ -160,7 +170,7 @@ const AllProjects = () => {
         technologies: ["Canva", "Photoshop", "Content Strategy"],
       },
       {
-        id: 18,
+        id: 19,
         title: "Bobamazing",
         subtitle: "(Graphics)",
         description: "Print media and poster design created to promote a milktea brand with eye-catching visuals.",        
@@ -168,7 +178,7 @@ const AllProjects = () => {
         technologies: ["Canva", "Photoshop"],
       },
        {
-        id: 19,
+        id: 20,
         title: "Wine",
         subtitle: "(Graphics)",
         description: "Creative social media and print designs developed to promote a wine brand through elegant and engaging visuals.",
@@ -176,7 +186,7 @@ const AllProjects = () => {
         technologies: ["Canva", "Photoshop"],
       },
       {
-        id: 20,
+        id: 21,
         title: "Amour Clothing",
         subtitle: "(Graphics)",
         description: "Social media graphics designed to showcase clothing products and promote brand awareness online.",
@@ -184,7 +194,7 @@ const AllProjects = () => {
         technologies: ["Canva", "Photoshop"],
       },
        {
-        id: 21,
+        id: 22,
         title: "Digital Media & Content Projects",
         subtitle: "(Content Videos)",
         description: "Short-form video content created during professional experience, involving research, videography, video editing, and copywriting for social media platforms.",
@@ -192,7 +202,7 @@ const AllProjects = () => {
         technologies: ["Capcut", "Photoshop", "Canva"],
       },
       {
-        id: 22,
+        id: 23,
         title: "Payday Sale Poster",
         subtitle: "(Graphics Poster)",
         description: "A promotional poster design created to advertise a payday sale using bold visuals and clear messaging.",
@@ -202,7 +212,7 @@ const AllProjects = () => {
     ],
     "Graphics": [
       {
-        id: 23,
+        id: 24,
         title: "Puro Cafe",
         subtitle: "(Brand Design)",
         description: "A complete brand design project featuring logo design, print media, and photobooth visuals to create a cohesive coffee brand identity.",
@@ -210,7 +220,7 @@ const AllProjects = () => {
         technologies: ["Canva", "Photoshop"],
       },
       {
-        id: 24,
+        id: 25,
         title: "Bobamazing",
         subtitle: "(Brand Design)",
         description: "A milktea brand design project that includes packaging, photobooth visuals, and marketing materials for a fun and consistent brand experience.",
